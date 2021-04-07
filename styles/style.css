@@ -41,11 +41,9 @@ header {
     margin: 0 .4rem;
     border: none;
     font-size: 1.05rem;
-}
-
-.searchbar input:focus {
     outline: none;
 }
+
 
 .center {
     text-align: center;
@@ -75,9 +73,30 @@ header {
     flex-direction: row-reverse;
 }
 
+.app-icon {
+    align-self: center;
+    padding-right: 1rem;
+}
+
+.signin {
+    border: 0;
+    color: white;
+    background-color: rgb(70,132,237);
+    height: 1.9rem;
+    width: 4.3rem;
+    font-weight: bold;
+}
+
 .nav-link {
     text-decoration: none;
     color: rgb(90,90,90);
     padding-left: 1rem;
     font-size: 0.80rem;
+}
+
+.nav-right .nav-link {
+    padding-left: 0rem;
+    padding-right: 1rem;
+    color: rgb(50,50,50);
+    align-self: center;
 }
